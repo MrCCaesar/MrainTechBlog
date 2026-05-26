@@ -1,0 +1,27 @@
+baseURL: https://MrCCaesar.github.io/MrainTechBlog/
+locale: zh-cn
+title: Mrain 的技术博客
+languageName: 中文
+theme: [PaperMod]
+
+outputs:
+  home:
+    - HTML
+    - JSON
+
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  category: categories
+  tag: tags
+
+params:
+  env: production
+  description: "一个分享技术知识和心得的博客"
+  keywords: [技术博客, 强化学习, 机器学习, 机器人]
